@@ -1,9 +1,19 @@
 {
+  "scripts": {
+    "start": "ts-node --loader ts-node/esm /index.ts"
+  },
+  "type": "module",
   "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.1",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "faker": "^6.6.6",
     "mysql2": "^3.11.4",
-    "sequelize": "^6.37.5"
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
   }
 }
